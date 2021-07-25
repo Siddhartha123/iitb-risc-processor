@@ -1,6 +1,6 @@
 ## Scripts
 #### ` iitb-risc-simulator.php ` 
-- It implements the programmer's model of IITB-RISC ISA. program is read in the form of assembly code. 
+- It implements the programmer's model of IITB-RISC ISA. Program is read in the form of assembly code. 
 
 - After every instruction, values of updated state elements (registers and memory locations) is echoed.
     
