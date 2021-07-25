@@ -71,7 +71,7 @@ opcode = {'ADD': '0000', 'ADC': '0000', 'ADZ': '0000', 'ADI': '0001', 'NDU': '00
           'LW': '0100', 'SW': '0101', 'LM': '0110', 'SM': '0111', 'BEQ': '1100', 'JAL': '1000', 'JLR': '1001', 'NOP': '1111'}
 lsb_3bits = {'ADD': '000', 'ADC': '010', 'ADZ': '001',
              'NDU': '000', 'NDC': '010', 'NDZ': '001'}
-file1 = open("rom.txt", "w+")
+file1 = open("src/memory/rom.txt", "w+")
 c = getcode()
 print(c)
 fillempty(c)

@@ -8,7 +8,7 @@ module ram(inp,address,load,clk,outp);
     reg [15:0] mem [255:0];
     integer i;
     initial
-        $readmemh("memory/ram.txt",mem);
+        $readmemh("src/memory/ram.txt",mem);
         always @(mem) begin
             // for(i = 0;i< = 255;i = i+1)
             // $display ("RAM[%d] = %h",i,mem[i]);

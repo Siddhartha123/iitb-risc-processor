@@ -7,7 +7,7 @@ module rom(clk, address, outp);
     integer i;
     
     initial
-        $readmemb("memory/rom.txt",mem);
+        $readmemb("src/memory/rom.txt",mem);
         initial begin
             //  for(i = 0;i< = 255;i = i+1)
             // 	$display ("ROM[%d] = %h",i,mem[i]);
