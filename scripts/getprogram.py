@@ -59,7 +59,7 @@ def fillempty(c):
 
 
 def fillram():
-    file2 = open("ram.txt", "w+")
+    file2 = open("src/memory/ram.txt", "w+")
     for i in range(256):
         file2.write("0000"+"\n")
     file2.close()
@@ -75,5 +75,5 @@ file1 = open("src/memory/rom.txt", "w+")
 c = getcode()
 print(c)
 fillempty(c)
-# fillram()
+#fillram()
 file1.close()
