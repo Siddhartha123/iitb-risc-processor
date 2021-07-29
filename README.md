@@ -1,3 +1,6 @@
+## Instruction Set
+![instruction set](doc/images/instruction-set.png)
+
 ## Scripts
 #### ` iitb-risc-simulator.php ` 
 - It implements the programmer's model of IITB-RISC ISA. Program is read in the form of assembly code. 
